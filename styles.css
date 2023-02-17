@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PT Serif', serif;
+}
+
+
+h2 {
+    color: blueviolet
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+
+}
+
+div {
+    background-color: aquamarine;
+    width: 90%;    /*largura*/
+    max-width: 420px;
+    opacity: 0.8;
+    padding: 10px;
+    border-radius: 24px;
+}
+
+.caixa-media {
+    width: 90%;
+    max-width: 300px;
+    margin-top: 15px;
+}
+
+.caixa-menor {
+    display: flex;
+    align-items: center;
+
+}
+
+.temp {
+    margin-top: 15px;
+    font-size: 30px;
+    margin-left: 22px;
+}
+
+.descricao {
+    text-transform: capitalize;
+}
+
+.ar {
+    margin-left: 20px;
+}
+
+.lupa {
+    height: 22px;
+}
+
+.icone {
+    height: 50px;
+    margin-bottom: 10px;
+
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: antiquewhite;
+}
+
+h2 {
+    color: brown;
+    font-size: 30px;
+}
+
+input {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: aliceblue;
+    width: calc(100% - 50px)
+}
